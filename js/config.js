@@ -1,19 +1,13 @@
 const LAP_CONFIG = {
+  whatsappNumber: "5567996268698",
 
-  // Número de WhatsApp para receber pedidos e inscrições.
-  // Formato: código do país + DDD + número, SOMENTE NÚMEROS.
-  // Exemplo Brasil: "5567999999999"
-  whatsappNumber: "5567996268698", // <-- TROQUE PELO NÚMERO REAL DA LAP PERFORMANCE
-
-  // Redes sociais / contato exibidos no rodapé
   social: {
     instagram: "https://instagram.com/lap.performance",
     instagramHandle: "@lap.performance",
-    email: "contato@lapperformance.com.br", // opcional, troque se quiser
+    email: "contato@lapperformance.com.br",
     city: "Nova Andradina, MS"
   },
 
-  // Próximo evento / treino em destaque na seção "Dia de Treino"
   event: {
     tag: "Próximo treino",
     title: "Dia de Treino — LAP Performance",
@@ -26,9 +20,6 @@ const LAP_CONFIG = {
     whatsappMessage: "Olá! Quero confirmar minha presença no Dia de Treino LAP Performance (21/08)."
   },
 
-  // Catálogo de produtos. Para cadastrar um novo produto, copie um bloco
-  // entre { } e ajuste os campos. "soon: true" deixa o produto como
-  // "Em breve" (sem botão de compra, com botão de "avise-me").
   products: [
     {
       id: "garrafa-termica",
@@ -40,6 +31,7 @@ const LAP_CONFIG = {
       soon: false,
       whatsappMessage: "Olá! Quero comprar a Garrafa Térmica LAP Performance."
     },
+
     {
       id: "camisa-ovini",
       tag: "Vestuário — Coleção Ovini",
