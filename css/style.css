@@ -227,9 +227,11 @@ button{ font-family:inherit; cursor:pointer; }
   padding-top: 7rem;
   padding-bottom: 4.5rem;
 }
+
 .hero-lanes{
   position:absolute;
-  inset:0;
+  inset:-20%;
+  
   background-image: repeating-linear-gradient(
     115deg,
     rgba(244,240,230,0.05) 0px,
@@ -237,10 +239,24 @@ button{ font-family:inherit; cursor:pointer; }
     transparent 1px,
     transparent 120px
   );
-  animation: laneShift 34s linear infinite;
+
+  background-size: auto;
+
+  animation: laneShift 20s linear infinite;
+
   opacity:0.9;
   pointer-events:none;
-  will-change: background-position;
+  will-change: transform;
+  transform: translate3d(0,0,0);
+}
+@keyframes laneShift{
+  0%{
+    transform: translate3d(0,0,0);
+  }
+
+  100%{
+    transform: translate3d(1400px,0,0);
+  }
 }
 .hero-glow{
   position:absolute;
