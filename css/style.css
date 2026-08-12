@@ -228,7 +228,8 @@ button{ font-family:inherit; cursor:pointer; }
   padding-bottom: 4.5rem;
 }
 .hero-lanes{
-  position:absolute; inset:0;
+  position:absolute;
+  inset:0;
   background-image: repeating-linear-gradient(
     115deg,
     rgba(244,240,230,0.05) 0px,
@@ -238,10 +239,8 @@ button{ font-family:inherit; cursor:pointer; }
   );
   animation: laneShift 34s linear infinite;
   opacity:0.9;
-}
-@keyframes laneShift{
-  from{ background-position: 0 0; }
-  to{ background-position: 1400px 0; }
+  pointer-events:none;
+  will-change: background-position;
 }
 .hero-glow{
   position:absolute;
