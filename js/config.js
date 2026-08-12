@@ -44,3 +44,5 @@ const LAP_CONFIG = {
     }
   ]
 };
+
+window.LAP_CONFIG = LAP_CONFIG;
