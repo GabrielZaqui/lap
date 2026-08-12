@@ -526,15 +526,19 @@ footer.site-footer{
 .wa-float:hover{ transform: scale(1.06); }
 .wa-float svg{ width:26px; height:26px; }
 
+/* TESTE — força todo conteúdo a aparecer */
 .reveal {
-  opacity: 0;
-  transform: translateY(18px);
-  transition: opacity .7s ease, transform .7s ease;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
 }
 
-.reveal.is-visible {
-  opacity: 1;
-  transform: none;
+.product-card,
+.ticket,
+.event-form,
+.section-head {
+  opacity: 1 !important;
+  visibility: visible !important;
 }
 
 .visually-hidden{
