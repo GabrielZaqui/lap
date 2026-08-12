@@ -1,15 +1,9 @@
-/* =============================================================================
-   CONFIGURAÇÃO DO SITE — LAP PERFORMANCE
-   Edite os valores abaixo para atualizar produtos, o evento em destaque
-   e o número de WhatsApp. Não é necessário tocar nos outros arquivos.
-   ============================================================================= */
-
 const LAP_CONFIG = {
 
   // Número de WhatsApp para receber pedidos e inscrições.
   // Formato: código do país + DDD + número, SOMENTE NÚMEROS.
   // Exemplo Brasil: "5567999999999"
-  whatsappNumber: "5500000000000", // <-- TROQUE PELO NÚMERO REAL DA LAP PERFORMANCE
+  whatsappNumber: "5567996268698", // <-- TROQUE PELO NÚMERO REAL DA LAP PERFORMANCE
 
   // Redes sociais / contato exibidos no rodapé
   social: {
